@@ -1,0 +1,5 @@
+I had planned to properly interface with an e-commerce api to reliably add plugin
+licenses purchased at www.authorityfx to the TurboGears2 licensing portal.  For
+the interim I wrote this threaded email parser which periodically checks a gmail
+account via POP, looking for payment received emails from Paypal. Emails areparsed
+for licensing details and the TuboGears2 sql database is updated.
